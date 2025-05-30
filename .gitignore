@@ -1,0 +1,9 @@
+#ignore certain terraform files
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+#ignore certain code files
+bin
+obj
